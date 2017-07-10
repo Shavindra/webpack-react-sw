@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es5",
+        "lib": [
+            "es6",
+            "scripthost",
+            "dom"
+        ]
+    },
+    "rootDir": "./src",
+    "files": [
+        "node_modules/@types/react-dom/index.d.ts",
+        "node_modules/@types/react/index.d.ts",
+        "typings/file-loader.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
